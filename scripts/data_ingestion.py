@@ -1,7 +1,8 @@
 import pandas as pd
 import os
 
-DATA_PATH = r"C:\Users\HP\OneDrive\Desktop\mutual_fund_analytics\data\raw"
+DATA_PATH = r"C:\Users\HP\OneDrive\Desktop\bluestock_mf_capstone"
+
 
 files = [f for f in os.listdir(DATA_PATH) if f.endswith(".csv")]
 
